@@ -372,7 +372,7 @@ emagnet_analyzer() {
     wait_time=$TIME
     temp_cnt=${wait_time}
     while [[ "${temp_cnt}" -gt "0" ]]; do
-        printf "\r         I'll Will Find You <-%2d -> It's A Matter Of Time" ${temp_cnt}
+        printf "\r         I Will Find You <-%2d -> It's A Matter Of Time" ${temp_cnt}
         sleep 1
         ((temp_cnt--))
     done
